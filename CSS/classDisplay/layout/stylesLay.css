@@ -2,6 +2,9 @@ body{
     padding: 0;
     margin: 0;
 }
+html{
+    font-family: Arial, sans-serif;
+}
 .nav{
     display: block;
     width: 100%;
@@ -15,7 +18,35 @@ body{
     width: auto;
     display: inline-block;
     position: absolute;
-    left: 75%;
+    left: 70%;
+    min-width: 360px;
+}
+@media (max-width: 1200px) {
+    .navNav{
+        width: auto;
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        min-width: 360px;
+    }
+}
+@media (max-width: 700px) {
+    .navNav{
+        width: auto;
+        display: inline-block;
+        position: absolute;
+        left: 30%;
+        min-width: 360px;
+    }
+}
+@media (max-width: 495px) {
+    .navNav{
+        width: auto;
+        display: inline-block;
+        position: absolute;
+        left: 15%;
+        min-width: 360px;
+    }
 }
 .navNav li{
     display: inline-block;
@@ -26,6 +57,10 @@ body{
 }
 .navUl{
     padding: 0;
+}
+.navNav a{
+    text-decoration: none;
+    color: black;
 }
 .newContent{
     display: block;
