@@ -1,0 +1,9 @@
+/* Adjacent Siblings */
+/* h2 + p{  
+    color: red;
+} */
+
+/* Adjacent Siblings */
+ /* h2 ~ p{  
+    color: red;
+}  */

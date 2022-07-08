@@ -1,0 +1,9 @@
+/* Combinador Child */
+div > p {
+    color: red;
+}
+/* Combinador Descendiente 
+div  p {
+    color: red;
+}
+*/

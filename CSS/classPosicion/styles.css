@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, sans-serif;
+}
+main{
+    width: 100%;
+}
+section{
+    border-radius: 10px;
+    width: 80%;
+    margin: 10% auto 0;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
+    min-width: 240px;
+}
+#one{
+    position: relative;
+    width: 50%;    
+    background-color: red;
+    margin: 0 auto;
+    bottom: 50px;
+    border-radius: 10px;
+    min-width: 170px;
+}
+#one p{
+    text-align: center;
+    margin: auto ;
+    padding: 25px;
+    font-size: 3.5rem;
+}
+#two{
+    position: relative;
+    bottom: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+#two p{
+    text-align: justify;
+    margin: auto;
+    padding: 25px;
+    font-size: 1.5rem;
+}
+#two img{
+    width: 30%;
+    position: relative;
+    left: 35%;
+}

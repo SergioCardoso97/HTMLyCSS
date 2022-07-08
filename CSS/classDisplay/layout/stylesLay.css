@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: block;
+    width: 100%;
+    background-color: peachpuff;
+}
+.navLogo{
+    display: inline-block;
+    position: relative;
+}
+.navNav{
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    left: 75%;
+}
+.navNav li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navUl{
+    padding: 0;
+}
+.newContent{
+    display: block;
+    background-color: aquamarine;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+.news{
+    display: inline-block;
+    background-color: red;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 540px;
+    overflow-y: scroll;
+}
+.content{
+    display: inline-block;
+    background-color: blue;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    position: absolute ;
+    height: 540px;
+    overflow-y: scroll;
+}
+.newsItem{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    height: 150px;
+    margin: 10px auto;
+    text-align: center;
+}
+.parrafoContent{
+    margin: 0;
+    text-align: justify;
+}
+.footer{
+    display: block;
+    width: 100%;
+    background-color: peachpuff;
+    padding: 0;
+    margin: 0;
+}
+.contacto{
+    display: inline-block;
+    background-color: gold;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: auto;
+}
+.redes{
+    display: inline-block;
+    background-color: green;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    position: absolute ;
+    height: auto;
+}
