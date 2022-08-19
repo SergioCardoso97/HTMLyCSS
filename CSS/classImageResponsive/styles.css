@@ -1,0 +1,9 @@
+.picture{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
